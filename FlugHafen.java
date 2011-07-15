@@ -28,8 +28,8 @@ public class FlugHafen
   /** Konstruiert einen Flughafen mit zufälligen Werten
   */
   //##########################################################################
-	public FlugHafen()
-	{
+  public FlugHafen()
+  {
     sTitel = Generator.symbole(3, "A", "Z");
     nMaximum = Generator.ganzzahl(10, 39);
     nCurrent = Generator.ganzzahl(Math.round(nMaximum / 4), nMaximum - 1);

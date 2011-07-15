@@ -40,8 +40,8 @@ public class FlugStatistik     // FlugBewertung
     * @param dieStatistik Liste von Einzelflugdaten
   */
   //##########################################################################
-	public FlugStatistik(ArrayList<FlugInfo> dieStatistik)
-	{
+  public FlugStatistik(ArrayList<FlugInfo> dieStatistik)
+  {
     nLadungTotal = 0;
     statistik = dieStatistik;
     fMax = dieStatistik.get(0);
@@ -73,7 +73,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Anzahl Passagiere
   */
   //##########################################################################
-	public int nLadungTotal()
+  public int nLadungTotal()
   {
     return nLadungTotal;
   }
@@ -84,7 +84,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Anzahl Passagiere
   */
   //##########################################################################
-	public int nLadungAbTotal()
+  public int nLadungAbTotal()
   {
     return nLadungAbTotal;
   }
@@ -95,7 +95,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Anzahl Passagiere
   */
   //##########################################################################
-	public int nLadungAbMax()
+  public int nLadungAbMax()
   {
     return nLadungAbMax;
   }
@@ -106,7 +106,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Anzahl Passagiere
   */
   //##########################################################################
-	public int nLadungAbMin()
+  public int nLadungAbMin()
   {
     return nLadungAbMin;
   }
@@ -117,7 +117,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Name des Flughafen
   */
   //##########################################################################
-	public String sLadungAbMax()
+  public String sLadungAbMax()
   {
     return sLadungAbMax;
   }
@@ -128,7 +128,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Name des Flughafen
   */
   //##########################################################################
-	public String sLadungAbMin()
+  public String sLadungAbMin()
   {
     return sLadungAbMin;
   }
@@ -139,7 +139,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Name des Flughafen
   */
   //##########################################################################
-	public String sLadungAnMin()
+  public String sLadungAnMin()
   {
     return sLadungAnMin;
   }
@@ -150,7 +150,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Name des Flughafen
   */
   //##########################################################################
-	public String sLadungAnMax()
+  public String sLadungAnMax()
   {
     return sLadungAnMax;
   }
@@ -161,7 +161,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Anzahl Passagiere
   */
   //##########################################################################
-	public int nLadungAnTotal()
+  public int nLadungAnTotal()
   {
     return nLadungAnTotal;
   }
@@ -172,7 +172,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Anzahl Passagiere
   */
   //##########################################################################
-	public int nLadungAnMin()
+  public int nLadungAnMin()
   {
     return nLadungAnMin;
   }
@@ -183,7 +183,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Anzahl Passagiere
   */
   //##########################################################################
-	public int nLadungAnMax()
+  public int nLadungAnMax()
   {
     return nLadungAnMax;
   }
@@ -194,7 +194,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Titel des Flugzeug
   */
   //##########################################################################
-	public String fMaxFlugZeug()
+  public String fMaxFlugZeug()
   {
     return fMax.getFlugZeug();
   }
@@ -205,7 +205,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Anzahl Passagiere
   */
   //##########################################################################
-	public int fMaxMaximum()
+  public int fMaxMaximum()
   {
     return fMax.getMaximum();
   }
@@ -216,7 +216,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Anzahl Passagiere
   */
   //##########################################################################
-	public int fMaxCurrent()
+  public int fMaxCurrent()
   {
     return fMax.getCurrent();
   }
@@ -227,7 +227,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Anzahl Passagiere
   */
   //##########################################################################
-	public String fMaxFlugHafenAn()
+  public String fMaxFlugHafenAn()
   {
     return fMax.getFlugHafenAn();
   }
@@ -238,7 +238,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Anzahl Passagiere
   */
   //##########################################################################
-	public String fMaxFlugHafenAb()
+  public String fMaxFlugHafenAb()
   {
     return fMax.getFlugHafenAb();
   }
@@ -249,7 +249,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Anzahl Passagiere
   */
   //##########################################################################
-	public String fMinFlugZeug()
+  public String fMinFlugZeug()
   {
     return fMin.getFlugZeug();
   }
@@ -260,7 +260,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Anzahl Passagiere
   */
   //##########################################################################
-	public int fMinMaximum()
+  public int fMinMaximum()
   {
     return fMin.getMaximum();
   }
@@ -271,7 +271,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Anzahl Passagiere
   */
   //##########################################################################
-	public int fMinCurrent()
+  public int fMinCurrent()
   {
     return fMin.getCurrent();
   }
@@ -282,7 +282,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Name des Flughafen
   */
   //##########################################################################
-	public String fMinFlugHafenAn()
+  public String fMinFlugHafenAn()
   {
     return fMin.getFlugHafenAn();
   }
@@ -293,7 +293,7 @@ public class FlugStatistik     // FlugBewertung
     * @return Name des Flughafen
   */
   //##########################################################################
-	public String fMinFlugHafenAb()
+  public String fMinFlugHafenAb()
   {
     return fMin.getFlugHafenAb();
   }
@@ -302,8 +302,8 @@ public class FlugStatistik     // FlugBewertung
   /** Teilt die Flüge in Ab- und ankommende und ermittelt Max und Min
   */
   //##########################################################################
-	private void calcBewegung()
-	{
+  private void calcBewegung()
+  {
     for (FlugInfo daten : statistik)
     {
       nLadungTotal += daten.getMaximum();

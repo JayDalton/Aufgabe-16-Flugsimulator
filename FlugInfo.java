@@ -28,8 +28,8 @@ public class FlugInfo // FlugInformation
     * @param derHafenAn Name des Zielflughafens
   */
   //##########################################################################
-	public FlugInfo(String derHafenAb, FlugZeug derFlieger, String derHafenAn)
-	{
+  public FlugInfo(String derHafenAb, FlugZeug derFlieger, String derHafenAn)
+  {
     hafenAb = derHafenAb;
     hafenAn = derHafenAn;
     flieger = derFlieger;
@@ -41,8 +41,8 @@ public class FlugInfo // FlugInformation
     * @return Name des Flughafens
   */
   //##########################################################################
-	public String getFlugHafenAb()
-	{
+  public String getFlugHafenAb()
+  {
     return hafenAb;
   }
 
@@ -52,8 +52,8 @@ public class FlugInfo // FlugInformation
     * @return Name des Flughafens
   */
   //##########################################################################
-	public String getFlugHafenAn()
-	{
+  public String getFlugHafenAn()
+  {
     return hafenAn;
   }
 
@@ -63,8 +63,8 @@ public class FlugInfo // FlugInformation
     * @return Objekt des Fliegers
   */
   //##########################################################################
-	public String getFlugZeug()
-	{
+  public String getFlugZeug()
+  {
     return flieger.getTitel();
   }
 
@@ -74,8 +74,8 @@ public class FlugInfo // FlugInformation
     * @return Anzahl der Passagiere
   */
   //##########################################################################
-	public int getCurrent()
-	{
+  public int getCurrent()
+  {
     return flieger.getCurrent();
   }
 
@@ -85,8 +85,8 @@ public class FlugInfo // FlugInformation
     * @return Anzahl der Passagiere
   */
   //##########################################################################
-	public int getMaximum()
-	{
+  public int getMaximum()
+  {
     return flieger.getMaximum();
   }
 }

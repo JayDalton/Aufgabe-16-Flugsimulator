@@ -23,8 +23,8 @@ public class FlugZeug
   /** Konstruiert ein Objekt Flugzeug mit zufälligem Fluigtyp
   */
   //##########################################################################
-	public FlugZeug()
-	{
+  public FlugZeug()
+  {
     int index = Generator.ganzzahl(0, FlugZeugTypen.getAnzahl() - 1);
     titel = FlugZeugTypen.getTitel(index);
     maximum = FlugZeugTypen.getSitze(index);

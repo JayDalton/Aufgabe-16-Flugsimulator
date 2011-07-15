@@ -24,8 +24,8 @@ public class FlugSimulator
     * @param anzahl Anzahl der Flughäfen
   */
   //##########################################################################
-	public FlugSimulator(int anzahl)
-	{
+  public FlugSimulator(int anzahl)
+  {
     start = 0;
     lFlugHafen = new ArrayList<FlugHafen>();
     for (int i = 0; i < anzahl; i++) {
@@ -37,8 +37,8 @@ public class FlugSimulator
   /** Startet die Simulation, lässt diese bewerten und startet die Ausgabe
   */
   //##########################################################################
-	public void starten()
-	{
+  public void starten()
+  {
     ArrayList<FlugInfo> lGeflogen = simulieren();
     
     FlugStatistik daten = new FlugStatistik(lGeflogen);

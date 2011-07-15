@@ -32,8 +32,8 @@ public enum FlugZeugTypen
     * @param dieSitze
   */
   //##########################################################################
-	private FlugZeugTypen(String derTitel, int dieSitze)
-	{
+  private FlugZeugTypen(String derTitel, int dieSitze)
+  {
     titel = derTitel;
     sitze = dieSitze;
   }

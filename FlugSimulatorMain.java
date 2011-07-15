@@ -14,12 +14,12 @@ public class FlugSimulatorMain
   /** Programmaufruf zur Steuerung der Flugsimulation
   */
   //##########################################################################
-	public static void main(String[] args)
-	{
+  public static void main(String[] args)
+  {
     if (validiereArgs(args))
     {
       Ausgabe.leere();
-  		Ausgabe.zeile("\n\n\tF l u g s i m u l a t i o n\n\n");
+      Ausgabe.zeile("\n\n\tF l u g s i m u l a t i o n\n\n");
 
       int anzahl = Integer.parseInt(args[0]);
       FlugSimulator simulation = new FlugSimulator(anzahl);
@@ -32,7 +32,7 @@ public class FlugSimulatorMain
 
       Ausgabe.zeile("\n\n\tAuf Wiedersehen!\n\n");
 
-  	} else {
+    } else {
       schreibeAnleitung();
     }
   }
